@@ -5,8 +5,8 @@ repositories:
 releases:
   - name: prometheus
     namespace: prometheus
-    chart: 
-    version: 1.0.0
+    chart: prometheus-community/prometheus
+    version: 20.2.0
     values:
       - values.yaml
 
