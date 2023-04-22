@@ -6,7 +6,7 @@ releases:
   - name: prometheus
     namespace: prometheus
     chart: prometheus-community/kube-prometheus-stack
-    version: 20.2.0
+    version: 45.19.0
     values:
       - values.yaml
 
